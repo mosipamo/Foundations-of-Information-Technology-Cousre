@@ -1,4 +1,4 @@
-# Introduction-to-Information-Technology-Course
+# Foundations-of-Information-Technology-Course
 
 ## HW1:
 - Draw a Gartner hype cycle for a technology(It can be anything). Keep the time frames and just show what stages it has.
