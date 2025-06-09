@@ -17,3 +17,5 @@ $$ \Delta H = H_{\text{receiver}} - H_{\text{sender}} $$
 
 ## HW3:
 - We are assigned to read an article and write a report for it. Here is the article: **`Generative Agents: Interactive Simulacra of Human Behavior`**
+
+## HW4: 
