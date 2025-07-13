@@ -1,15 +1,11 @@
-to make a new order: 
-	curl -X POST http://localhost:5000/orders \
-  	-H "Content-Type: application/json" \
-  	-d '{"item": "item1", "quantity": 50}'      : Creating order
+to make a new order: (Creating order)
+	curl -X POST http://localhost:5000/orders -H "Content-Type: application/json" -d "{\"item\": \"item1\", \"quantity\": 2}"
 
-to see all the orders: 
-	curl http://localhost:5000/orders           : Getting orders
+to see all the orders: (Getting orders)
+	curl http://localhost:5000/orders
 
-to see the inventory of an item:
-	curl http://localhost:5001/inventory/item3  : Checking inventory
+to see the inventory of an item: (Checking inventory)
+	curl http://localhost:5001/inventory/item3
 
 to update inventory(just decrease an inventory, It does not create an order): 
-	curl -X PUT http://localhost:5001/inventory/item1 \
-     -H "Content-Type: application/json" \ 
-     -d '{"quantity": 2}'
+	curl -X PUT http://localhost:5001/inventory/item1 -H "Content-Type: application/json" -d "{\"quantity\": 5}"
